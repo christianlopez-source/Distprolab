@@ -1,0 +1,1 @@
+<?php $url_base = 'http://localhost/Distprolab/'; ?>

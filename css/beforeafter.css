@@ -1,0 +1,148 @@
+/*------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*------------------------------------------------------------------
+Project:  Dr. Plastic Surgery
+Version:	1.0
+Last change:	10/10/2017
+Assigned to:	Fruitfulcode
+
+
+[Table of contents]
+
+1. Element styling and reset of standard browser styles
+2. Universal Classes
+3. Classes Styling
+4. Forms
+    4.1. Contact form
+    4.2. Leave comment form
+    4.3. Modal block form
+5. Header
+6. Specific styling for pages
+    6.1. Home page
+    6.2. Services page
+    6.3. Blog-grid pages
+    6.4. Single blog post page
+    6.5. 404 page
+7. Footer
+8. Copyright
+9. Audio player
+10. Navigation
+11. Sidebar
+12. Modal block
+13. Responsive
+
+
+# [Color codes]
+
+# Theme black (text): #212121
+# Theme green (headings, links): #4caf52
+# Orange (headings, links): #de9b61
+# Dark moderate cyan (headings, lines): #3b8386
+
+
+[Typography]
+
+Headers, text, links:	'Montserrat', sans-serif;
+
+------------------------------------------------------------------*/
+/*----------------------------------------------------------------
+* 1. Element styling and reset of standard browser styles
+------------------------------------------------------------------*/
+
+/* Our works section */
+.works {
+    background: url("../img/base-grey.png") bottom center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: 8;
+    height: 800px;
+    margin-top: -2%;
+}
+.works .fixed-wrapper {
+    margin-top: 10%;
+    /*left: 89%;*/
+}
+.works .fixed-wrapper p {
+    float: left;
+    color: rgba(59, 131, 134, 0.11);
+}
+.works .images-tab {
+    margin: 0 auto;
+}
+.works .section-name-wrapper {
+    margin-top: 115px;
+    margin-left: 75px;
+}
+.works h2 {
+    color:#8853bc;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 70px;
+}
+.works .text-wrapper {
+    padding: 30px 0 113px 0;
+    float: left;
+}
+.works .text-wrapper .descriptions-wrapper {
+    width: 100%;
+}
+.works .text-wrapper .descriptions-wrapper .description-box {
+    cursor: pointer;
+    width: 370px;
+    padding: 9px 15px;
+    margin: 0 auto 15px auto;
+    /*margin-bottom: 15px;*/
+}
+.works .text-wrapper .descriptions-wrapper .description-box p {
+    font-size: 18px;
+    color: #212121;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 0;
+}
+.works .text-wrapper .descriptions-wrapper .description-box p .line {
+    height: 14px;
+    width: 2px;
+    background-color: #de9b61;
+    display: inline-block;
+    margin: 0 15px;
+}
+.works .text-wrapper .descriptions-wrapper .description-box p .area {
+    color: #de9b61;
+}
+.works .text-wrapper .descriptions-wrapper .description-box img {
+    display: none;
+}
+.works .text-wrapper .descriptions-wrapper .active {
+    background-color: #de9b61;
+    position: relative;
+}
+.works .text-wrapper .descriptions-wrapper .active p {
+    color: #fff;
+}
+.works .text-wrapper .descriptions-wrapper .active p .line {
+    background-color: #fff;
+}
+.works .text-wrapper .descriptions-wrapper .active p .area {
+    color: #fff;
+}
+.works .text-wrapper .descriptions-wrapper .active img {
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 1%;
+}
+.works .text-wrapper .descriptions-wrapper .description-box:last-child {
+    margin-bottom: 0;
+}
+.works .photo-wrapper {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    float: right;
+}
+.works .photo-wrapper .img-wrapper {
+    display: none;
+}
+.works .photo-wrapper .img-wrapper.active {
+    display: block;
+}
